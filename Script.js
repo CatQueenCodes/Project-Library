@@ -1,7 +1,3 @@
-
-let myLibrary = [];
-let newBook;
-
 //button event listeners for create new book, add new book to page, close popup
 const addBtn = document.querySelector('#addBtn');
 addBtn.addEventListener('click', addBookToLibrary);
@@ -22,6 +18,9 @@ function Book(title, author, pages, read) {
 }
 
 //creates book from Book Constructor, adds to library
+let myLibrary = [];
+let newBook;
+
 function addBookToLibrary() {
     event.preventDefault();
     popUpForm.style.display = 'none';
