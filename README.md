@@ -1,6 +1,9 @@
 This is Project: Library from The Odin Project.
 https://www.theodinproject.com/courses/javascript/lessons/library 
 
+View My Project Live: https://graceschwar.github.io/Project-Library/
+GitHub Code Files: https://github.com/GraceSchwar/Project-Library
+
 
 This project took me 37 hours, 1.3 hours of that time was CSS the rest was the JavaScript
 
