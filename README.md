@@ -1,7 +1,8 @@
 This is Project: Library from The Odin Project.
 https://www.theodinproject.com/courses/javascript/lessons/library 
 
-View My Project Live: https://graceschwar.github.io/Project-Library/ /
+View My Project Live: https://graceschwar.github.io/Project-Library/ 
+
 GitHub Code Files: https://github.com/GraceSchwar/Project-Library
 
 
@@ -13,4 +14,4 @@ Things I leard:\
 -You can access DOM elements with a variable refrencing that DOM elements ID. For example: \
 let bookId = document.getElementById(`readBtn${myLibrary.indexOf(this)}`); to access an element with the ID `readBtn1`\
 -You can add event listeners INSIDE of other functions.\
--`!` NOT will turn truthy values falsey and falsey values truthy. You can change a variable/value using `!`\
+-`!` NOT will turn truthy values falsey and falsey values truthy. You can change a variable/value using `!`
