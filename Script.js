@@ -71,7 +71,6 @@ function createBook(item) {
 
 
     
-    readBtn.setAttribute('id', 'readBtn'+myLibrary.indexOf(item));
     readBtn.classList.add('readBtn')
     
     bookDiv.appendChild(readBtn);
