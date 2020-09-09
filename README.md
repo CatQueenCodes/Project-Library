@@ -8,7 +8,7 @@ GitHub Code Files: https://github.com/GraceSchwar/Project-Library
 
 This project took me 37 hours, 1.3 hours of that time was CSS the rest was the JavaScript
 
-Things I leard:\
+Things I learned:\
 -How to properly use `const`\
 -Basics of local storage so data is not lost on page refresh
 -You can access DOM elements with a variable refrencing that DOM elements ID. For example: \
