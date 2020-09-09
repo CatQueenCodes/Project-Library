@@ -1,17 +1,16 @@
 
-//Store all books in an array
 let myLibrary = [];
 let newBook;
-const library = document.querySelector('#Library-container');
-const newBookBtn = document.querySelector('#newBtn');
-const addBtn = document.querySelector('#addBtn');
-const popUpForm = document.getElementById('popUp');
-const closePopUp = document.getElementsByTagName('span')[0];
-const form = document.getElementById('form');
 
 //button event listeners for create new book, add new book to page, close popup
+const addBtn = document.querySelector('#addBtn');
 addBtn.addEventListener('click', addBookToLibrary);
+
+const newBookBtn = document.querySelector('#newBtn');
 newBookBtn.addEventListener('click', () => popUpForm.style.display = 'block');
+
+const popUpForm = document.getElementById('popUp');
+const closePopUp = document.getElementsByTagName('span')[0];
 closePopUp.addEventListener('click', () => popUpForm.style.display = 'none');
 
 //Book Constructor
@@ -47,7 +46,7 @@ function render() {
 
 //creats book DOM elements, to use in render();
 function createBook(item) {
-
+    const library = document.querySelector('#Library-container');
     const bookDiv = document.createElement('div');
     const titleDiv = document.createElement('div');
     const authDiv = document.createElement('div');
