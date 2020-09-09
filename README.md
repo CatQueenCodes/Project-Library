@@ -1,7 +1,7 @@
 This is Project: Library from The Odin Project.
 https://www.theodinproject.com/courses/javascript/lessons/library 
 
-View My Project Live: https://graceschwar.github.io/Project-Library/
+View My Project Live: https://graceschwar.github.io/Project-Library/ /
 GitHub Code Files: https://github.com/GraceSchwar/Project-Library
 
 
