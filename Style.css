@@ -1,0 +1,160 @@
+
+body{
+  background-color: #6a9fa5;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 55px;
+}
+
+#newBtn-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#newBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  border: solid 3px black;
+}
+
+#Library-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+/* Book and its contents */ 
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 25px;
+  height: 300px;
+  width: 250px;
+  padding: 15px;
+  margin: 20px;
+  background-color: #fbd082;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pages {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+button:focus {outline:0;}
+
+.readBtn { 
+  font-size: 20px;
+  height: 35px;
+  width: 110px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: solid 3px black;
+}
+
+#removeBtn {
+  font-size: 20px;
+  height: 35px;
+  width: 110px;
+  border-radius: 10px;
+  border: solid 3px black;
+  background-color: #d7d9da;
+}
+
+#addBtn {
+  font-size: 20px;
+  height: 35px;
+  width: 110px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: solid 3px black;
+}
+
+/* Modal popup box  https://www.w3schools.com/howto/howto_css_modals.asp */
+
+/* The Modal (background) */
+input#title {
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  border: solid 3px black;
+}
+input#author {
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  border: solid 3px black;
+}
+input#pages {
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  border: solid 3px black;
+}
+
+input[type=checkbox] {
+  
+  transform: scale(2);
+}
+#popUp {
+
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-size: 30px;
+  }
+  
+  /* Modal Content/Box */
+#form {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
