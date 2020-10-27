@@ -10,11 +10,13 @@ const closePopUp = document.getElementsByTagName('span')[0];
 closePopUp.addEventListener('click', () => popUpForm.style.display = 'none');
 
 //Book Constructor
-function Book(title, author, pages, read) {
-    this.title = form.title.value; 
-    this.author = form.author.value; 
-    this.pages = form.pages.value + 'pg'; 
-    this.read = form.read.checked; 
+class Book {
+    constructor(title, author, pages, read) {
+        this.title = form.title.value; 
+        this.author = form.author.value; 
+        this.pages = form.pages.value + 'pg'; 
+        this.read = form.read.checked; 
+    }
 }
 
 //creates book from Book Constructor, adds to library
@@ -69,10 +71,7 @@ function createBook(item) {
     pageDiv.classList.add('pages');
     bookDiv.appendChild(pageDiv);
 
-
-    
-    readBtn.classList.add('readBtn')
-    
+    readBtn.classList.add('readBtn')    
     bookDiv.appendChild(readBtn);
     if(item.read===false) {
         readBtn.textContent = 'Not Read';
